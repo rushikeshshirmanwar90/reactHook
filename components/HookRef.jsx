@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-const HookUseRef = () => {
+const HookRef = () => {
   const customRef = useRef(null);
 
   useEffect(() => {
@@ -14,4 +14,4 @@ const HookUseRef = () => {
   );
 };
 
-export default HookUseRef;
+export default HookRef;
